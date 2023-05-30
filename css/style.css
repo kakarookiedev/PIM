@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:	#F0F0F0;
+}
+/**/
+/*Design topo - inicio*/
+
+/*Design logo - inicio*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+#logo {
+    padding: 20px;
+    display: flex;
+    align-items: baseline;
+    color: 	#F0F0F0;
+}
+#logo span{
+    font-size: 18px;
+}
+#logo a{
+    font-size: 32px;
+    padding-right: 3px;
+    text-decoration: none;
+    color: 	#F0F0F0;
+}
+/*Design logo - fim*/
+
+#menu ul{
+    display: flex;
+    color: white;
+    list-style: none;
+}
+#menu ul li{
+    padding: 12px;
+    font-size: 22px;
+    align-content: center;
+}
+/*Design topo - fim*/
