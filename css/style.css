@@ -32,9 +32,10 @@ header {
 }
 /*Design logo - fim*/
 
+/* Design menu - inicio*/
 #menu ul{
     display: flex;
-    color: white;
+    color: #F0F0F0;
     list-style: none;
 }
 #menu ul li{
@@ -42,4 +43,34 @@ header {
     font-size: 22px;
     align-content: center;
 }
+/* Design menu - fim*/
+
+/* Design login - inicio*/
+main {
+    width: 400px;
+    height: 450px;
+    background-color:#A0A0A0;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#login input{
+    width: 300px;
+    margin-left: 50px;
+    height: 45px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 15px;
+    text-align: center;
+    background: white
+}
+
+#logar:hover{
+    cursor: pointer;
+}
+
 /*Design topo - fim*/
