@@ -5,6 +5,9 @@
 body{
     background-color:	#F0F0F0;
 }
+img {
+    width: 100%;
+}
 /**/
 /*Design topo - inicio*/
 
@@ -25,6 +28,7 @@ header {
     font-size: 18px;
 }
 #logo a{
+    font-family: 'Times New Roman';
     font-size: 32px;
     padding-right: 3px;
     text-decoration: none;
@@ -45,6 +49,7 @@ header {
 }
 #menu ul li:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
 /* Design menu - fim*/
 
@@ -69,7 +74,12 @@ main {
     border: none;
     margin-top: 15px;
     text-align: center;
-    background: white;
+    background: white
+}
+#login h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
 }
 
 #logar:hover{
